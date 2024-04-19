@@ -1,0 +1,286 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'poppins','sans serif';
+
+}
+
+
+body{
+    background-color: black;
+}
+
+
+.main{
+    background-image: url("Image/Netflix.jpg");
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+}
+
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+
+
+nav{
+    margin: auto;
+    max-width: 60vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+}
+
+
+
+nav img{
+    margin: 40px;
+    padding-top: 25px;
+    padding-right: 45px;
+    color: red;
+    width: 155px;
+    position: relative;
+    z-index: 12;
+}
+
+
+
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+
+
+
+.hero{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color:rgb(250, 248, 248);
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    /* font-size: 50px; */
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+.hero> :nth-child(1){
+    font-size: 50px;
+    /* font-family: 'Martel Sans', sans-serif; */
+    font-weight: bolder;
+}
+
+
+
+
+
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+
+
+
+.hero> :nth-child(3){
+    font-weight: 400px;
+    font-size: 20px;
+}
+
+
+
+
+.btn{
+    padding: 3px 8px;
+    font-weight: 400px;
+    color: white;
+    background-color: rgba(125, 124, 124, 0.026);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.bts-nav{
+    padding: 3px 8px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(245, 7, 7);
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+
+
+.herobtn{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 16px;
+}
+
+
+
+.btn-red{
+    border: 1px solid white;
+   padding: 8px 24px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    font-weight:bolder;
+    color: antiquewhite;
+    font-size: 25px;
+} 
+
+
+
+.main input{
+    background-color: rgba(25, 25, 25,0.8);
+    padding: 12px 101px 12px 14px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(246, 211, 211, 0.5);
+    color: aliceblue;
+    font-weight: 900;
+   
+}
+
+
+
+.one{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+ 
+.image{
+    position: relative;
+}
+
+.sepate{
+    height: 7px;
+    background-color: rgba(39, 39, 39, 0.349);
+    /* margin: 5px; */
+}
+
+.image img{
+
+width: 36vw;
+position: relative;
+z-index: 10;
+
+}
+
+.image video{
+    position:absolute;
+    top: 51px;
+    right: 0;
+}
+
+section.one> div{
+    display: flex;
+    flex-direction: column;
+}
+
+ section.one > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+section.one > div :nth-child(2){
+    font-size: 24px;
+    /* font-weight: bolder; */
+    /* padding: 5px; */
+
+}
+.faq{
+    padding: 34px;
+  text-align: center;
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 48px;
+}
+
+
+ .box1{
+    justify-content: space-between;
+    width: 72vw;
+    margin: auto;
+    height:20px ;
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 35px;
+    color: antiquewhite;
+    font-size: 25px;
+}
+.box1 svg{
+    filter: invert(1);
+}
+.sepate1{
+    height: 7px;
+    background-color: rgba(6, 6, 6, 0.349);
+    /* margin: 5px; */
+}
+
+.box1:hover{
+    background-color: #414141;
+}
+
+footer{
+
+    color: rgb(247, 253, 253);
+    margin: auto;
+    max-width: 60vw;
+    padding: 14px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer .question{
+    padding:34px 0px;
+}
+
+.footer a{
+    font-size: 12px;
+    color: white;
+}
+
+.footeritem{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
